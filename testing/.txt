@@ -1,0 +1,22 @@
+git clone
+
+// compulsory check your terminal when command run{
+git status
+git branch
+}
+
+when your not own branch{
+    git checkout (your branch write)
+}
+
+// you are not changes your branch and any persone changes {
+git pull origin main
+git push
+}
+
+// you are changes your branch and any persone changes {
+git add .
+git commit -m "your commit"
+git pull origin main
+git push
+}
